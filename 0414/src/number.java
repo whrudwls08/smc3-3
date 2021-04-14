@@ -5,7 +5,7 @@ public class number {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50±îÁö):");
+		System.out.println("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50ê¹Œì§€):");
 		int a=sc.nextInt(); 
 		int b[] = new int[10] ;
 		for(int i = 0; i<10;i++){
@@ -14,9 +14,9 @@ public class number {
 		}
 		for(int i = 0; i<10; i++){
 			if(b[i]==a)
-				System.out.println("´çÃ·");
+				System.out.println("ë‹¹ì²¨"); //ì£¼ì„ ì£¼ì„
 		else{
-			System.out.println("²Î");
+			System.out.println("ê½");
 			break;
 		}
 	}
